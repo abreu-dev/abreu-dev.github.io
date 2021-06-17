@@ -1,0 +1,63 @@
+/* Navbar */
+
+.navbar {
+    height: 150px;
+    background: transparent;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+/* Navbar */
+
+/* Content */
+
+.content {
+    text-align: center;
+}
+
+.intro-text {
+    margin-top: 150px;
+    width: 100%;
+    position: absolute;
+}
+
+.intro-text h1 {
+    font-size: 42px;
+    letter-spacing: 20px;
+}
+
+.intro-text h3 {
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+/* Content */
+
+/* Stagger Animtaions */
+
+.grid {
+    width: 125px;
+    background: #ddd;
+    margin: auto;
+}
+
+.grid-item {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 5px 0;
+    background: purple;
+    float: left;
+    transition: transform 0.4s;
+}
+
+.grid-item.is-moved {
+    transform: scale(0.4);
+}
+
+/* Stagger */
